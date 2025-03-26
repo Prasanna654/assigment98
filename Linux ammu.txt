@@ -1,0 +1,129 @@
+1. What is Linux?
+A basic question to assess your understanding of the operating system. Linux is an open-source, Unix-like operating system used for various purposes like servers, desktops, and embedded systems.
+
+2. What are the advantages of using Linux?
+Key advantages include open-source nature, security, stability, scalability, flexibility, and cost-effectiveness.
+
+3. What are the different types of Linux distributions?
+Popular distributions include Ubuntu, CentOS, Red Hat, Debian, Fedora, and Arch Linux. You might be asked about their differences or purposes.
+
+4. Explain the basic Linux file system hierarchy.
+The Linux file system starts from the root directory (/). Common directories include:
+
+/bin (binary executables)
+
+/home (user home directories)
+
+/etc (configuration files)
+
+/var (variable data files)
+
+/usr (user programs)
+
+/tmp (temporary files)
+
+5. What is the kernel in Linux?
+The kernel is the core part of the Linux operating system that manages hardware, resources, and communication between software and hardware.
+
+6. What is a shell in Linux?
+A shell is a command-line interface used to interact with the operating system. Common types include the Bourne Again Shell (bash), Z shell (zsh), and C shell (csh).
+
+7. What is a process in Linux?
+A process is an instance of a running program. You should understand process states, commands like ps, top, and managing processes (e.g., kill, nice).
+
+8. How do you find out which process is using a particular port?
+Using commands like:
+
+lsof -i :<port_number>
+
+netstat -tuln
+
+ss -tuln
+
+9. What are some common Linux commands?
+Basic commands include:
+
+ls (list files)
+
+cd (change directory)
+
+pwd (print working directory)
+
+cp (copy files)
+
+mv (move/rename files)
+
+rm (remove files)
+
+cat (concatenate and display file content)
+
+chmod (change file permissions)
+
+chown (change file ownership)
+
+df (disk space usage)
+
+du (disk usage for files/directories)
+
+10. What is a symbolic link in Linux?
+A symbolic link (symlink) is a type of file that points to another file or directory. You can create one with the ln -s command.
+
+11. What is the difference between su and sudo?
+su allows you to switch to another user account (default root), while sudo allows executing a command with superuser privileges.
+
+12. What is the difference between a hard link and a symbolic link?
+A hard link is a direct reference to the inode of a file, whereas a symbolic link is a pointer to the file name.
+
+13. How do you check disk space usage in Linux?
+You can use the df command to see overall disk usage and du to check disk usage for specific directories.
+
+14. Explain the file permissions in Linux.
+Files have three types of permissions: read (r), write (w), and execute (x) for the owner, group, and others. You can check permissions with ls -l and modify them using chmod.
+
+15. How would you view the content of a file in Linux?
+You can use commands like cat, more, less, or head and tail to view the contents of a file.
+
+16. What is a package manager in Linux?
+A package manager is used to install, update, and remove software packages. Examples include apt (for Debian/Ubuntu), yum (for Red Hat/CentOS), and dnf (for Fedora).
+
+17. How do you find files in Linux?
+You can use the find command to search for files based on various criteria. For example: find /path/to/search -name "*.txt".
+
+18. What is the difference between grep and find?
+grep is used to search for text within files, while find is used to search for files in a directory hierarchy.
+
+19. What are cron jobs in Linux?
+Cron jobs are scheduled tasks that run at specific times. You can configure them using the crontab command.
+
+20. How do you add or remove users in Linux?
+You can add a user with useradd and remove a user with userdel. To manage passwords, use passwd.
+
+21. What is the difference between kill and killall?
+kill terminates a process by PID, while killall terminates processes by name.
+
+22. What is the top command used for in Linux?
+The top command is used to display real-time system statistics, such as CPU usage, memory usage, and running processes.
+
+23. Explain the concept of virtual memory in Linux.
+Virtual memory allows the OS to use disk space as an extension of RAM, enabling programs to run even if physical memory is insufficient.
+
+24. What is a daemon in Linux?
+A daemon is a background process that runs without user interaction, often managing system services. For example, sshd for secure connections.
+
+25. How do you check the system's uptime in Linux?
+The uptime command shows the system's running time, load averages, and number of users.
+
+26. What is the difference between a soft and hard shutdown in Linux?
+A soft shutdown (e.g., shutdown) gracefully stops processes, while a hard shutdown (e.g., powering off directly) might cause data loss.
+
+27. How do you manage services in Linux?
+For systems using systemd, you can manage services with systemctl. For example, systemctl start <service> or systemctl stop <service>.
+
+28. What is the use of tar command?
+tar is used to compress or extract files from tarballs (compressed archive files), e.g., tar -czf archive.tar.gz file.
+
+29. How do you view the system logs in Linux?
+You can view logs using journalctl (for systemd systems) or by looking at log files in /var/log/ (e.g., dmesg, syslog, auth.log).
+
+30. What is the significance of the /etc/passwd file in Linux?
+The /etc/passwd file contains user account information, including usernames, UIDs, GIDs, home directories, and default shells.
