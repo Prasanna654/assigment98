@@ -1,0 +1,6 @@
+ls 
+mkdir kubernetes
+cd kubernetes
+vi dev.yaml
+kubectl apply -f dev.yaml
+kubectl get deployments.apps
