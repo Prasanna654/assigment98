@@ -5,3 +5,11 @@ vi dev.yaml
 kubectl apply -f dev.yaml
 kubectl get deployments.apps
 kubectl get pod
+kubectl describe deployments.app ngnix deployments |more
+kubectl scale deployment ngnix-deployment --replicas=10
+kubectl get pod
+kubectl edit deployments.app
+kubectl edit deployments.apps ngnix-deployment
+change pod to2
+
+
