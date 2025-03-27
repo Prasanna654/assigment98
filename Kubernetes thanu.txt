@@ -11,5 +11,6 @@ kubectl get pod
 kubectl edit deployments.app
 kubectl edit deployments.apps ngnix-deployment
 change pod to2
+kubectl get pod -o wide
 
 
