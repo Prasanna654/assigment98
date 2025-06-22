@@ -70,5 +70,10 @@ https://github.com/visaltyagi/Kubernetes-Assignment-1?source=post_page-----66433
 
 
 
+https://github.com/discover-devops/kubernetes_workshop/tree/main
+
+
+
+
 
 
