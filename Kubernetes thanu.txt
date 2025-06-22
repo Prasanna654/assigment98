@@ -64,6 +64,9 @@ spec:
         ports:
         - containerPort: 80
 
+Assigment 1
+https://github.com/visaltyagi/Kubernetes-Assignment-1?source=post_page-----6643342cc998---------------------------------------
+
 
 
 
