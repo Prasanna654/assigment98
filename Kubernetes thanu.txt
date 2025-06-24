@@ -158,6 +158,44 @@ EOF
 
 
 
+ 1  minikube start --driver=docker
+    2  sudo kubeadm init
+    3  sudo snap install kubeadm
+    4  kubectl get nodes
+    5  ls 
+    6  mkdir kubernetes
+    7  cd kubernetes
+    8  sudo nano install.yaml
+    9  kubectl apply -f dev.yaml
+   10  kubectl apply -f install.yaml
+   11  kubectl get deployments.apps
+   12  kubectl get pod
+   13  kubectl describe deployments.app ngnix deployments |more
+   14  nano service.yaml
+   15  kubectl apply –f service.yaml
+   16  kubectl apply -f service.yaml
+   17  kubectl get svc
+   18  nano deployment.yaml
+   19  y
+   20  nano deployment.yaml
+   21  kubectl apply -f deployment.yaml
+   22  kubectl get deploy
+   23  kubectl get po
+   24  nano deployment1.yaml
+   25  kubectl apply -f deployment.yaml
+   26  kubectl edit service my-app-service
+   27  kubectl get services
+   28  kubectl get services
+   29  service.yaml
+   30  nano service.yaml
+   31  kubectl apply -f service.yaml
+   32  kubectl get services
+   33  history
+
+
+
+
+
 
 
 
