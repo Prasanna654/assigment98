@@ -5,7 +5,7 @@ A basic question to assess your understanding of the operating system. Linux is 
 Key advantages include open-source nature, security, stability, scalability, flexibility, and cost-effectiveness.
 
 3. What are the different types of Linux distributions?
-Popular distributions include Ubuntu, CentOS, Red Hat, Debian, Fedora, and Arch Linux. You might be asked about their differences or purposes.
+Popular distributions include Ubuntu, CentOS, Red Hat, Debian, Fedora, and Arch Linux. You might be asked about their differences or purposes. 
 
 4. Explain the basic Linux file system hierarchy.
 The Linux file system starts from the root directory (/). Common directories include:
