@@ -127,3 +127,4 @@ You can view logs using journalctl (for systemd systems) or by looking at log fi
 
 30. What is the significance of the /etc/passwd file in Linux?
 The /etc/passwd file contains user account information, including usernames, UIDs, GIDs, home directories, and default shells.
+than   l ef to day
